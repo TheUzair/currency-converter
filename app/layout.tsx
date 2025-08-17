@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Currency Converter App",
     description:
       "Convert currencies in real-time with a modern UI built using Next.js, Tailwind, and shadcn/ui.",
-    url: "url.com",
+    url: "https://currency-converter-blond-rho-23.vercel.app",
     siteName: "Currency Converter",
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Currency Converter App",
     description:
       "Real-time global currency converter with modern UI, built by Mohd Uzair.",
-    creator: "@yourTwitterHandle",
+    creator: "@TheUzair4",
     images: ["/og-image.png"],
   },
 };

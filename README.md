@@ -3,7 +3,7 @@
 A modern, responsive **currency converter** built with **Next.js 15, Tailwind CSS, and shadcn/ui**.
 This application enables users to convert between global currencies in real-time, track their last 5 conversions, and access dedicated informational pages like **Features, About, Contact, Privacy, Terms, and Support**.
 
-🔗 **[Live Demo](https://currency-converter-demo.vercel.app)** (Production URL placeholder)
+🔗 **[View Live](https://currency-converter-blond-rho-23.vercel.app)**
 
 ---
 
