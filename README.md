@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💱 Currency Converter App
 
-## Getting Started
+A modern, responsive **currency converter** built with **Next.js 15, Tailwind CSS, and shadcn/ui**.
+This application enables users to convert between global currencies in real-time, track their last 5 conversions, and access dedicated informational pages like **Features, About, Contact, Privacy, Terms, and Support**.
 
-First, run the development server:
+🔗 **[Live Demo](https://currency-converter-demo.vercel.app)** (Production URL placeholder)
+
+---
+
+## ✨ Features
+
+- 🔄 **Real-time currency conversion** using live exchange API
+- 🕒 **Conversion history tracking** (last 5 results)
+- 📱 **Modern responsive UI** (Navbar + Footer + Pages)
+- 🌍 **Comprehensive list of supported currencies**
+- 📑 **Dedicated pages**: Features, About, Contact, Privacy, Terms, Support
+- ⚡ **Optimized for performance** and **SEO-ready**
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/app
+  ├── page.tsx          # Home page (converter UI)
+  ├── about/page.tsx    # About page
+  ├── features/page.tsx # Features page
+  ├── contact/page.tsx  # Contact page
+  ├── privacy/page.tsx  # Privacy Policy
+  ├── terms/page.tsx    # Terms & Conditions
+  ├── support/page.tsx  # Support page
+/components
+  ├── Navbar.tsx
+  ├── Footer.tsx
+/data
+  ├── currency.ts       # List of currency codes
+/public
+  ├── favicon.ico
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ⚡ **Next.js 15** – React framework for modern apps
+- 🎨 **Tailwind CSS** – Utility-first CSS framework
+- 🧩 **shadcn/ui** – Accessible, reusable UI components
+- 🔗 **Lucide React** – Beautiful open-source icons
+- 🌐 **Exchange Rate API** – Live currency data
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to set up locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Clone the repository
+git clone https://github.com/TheUzair/currency-converter.git
 
-## Deploy on Vercel
+# Navigate to the project folder
+cd currency-converter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install dependencies
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start the development server
+npm run dev
+```
+
+Visit **[http://localhost:3000](http://localhost:3000)** to view the app.
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch (`feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Mohd Uzair**
+
+- 🔗 [LinkedIn](https://linkedin.com/in/mohd-uzair-33b166204)
+- 📧 [mohujer90@gmail.com](mailto:mohujer90@gmail.com)
+
+---
